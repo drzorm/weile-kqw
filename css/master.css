@@ -56,5 +56,6 @@ body{min-width: 320px;/*max-width: 768px;*/margin:0 auto; background-color: #9ee
 .cContent strong{ color: #22227c; font-weight: bold;}
 
 #footer{ position: relative; width: 100%; margin:0 auto; padding: 0; text-align: center;}
+.copyright{ margin-top: -150px;}
 .copyright a.top{ border: 3px solid #45458b; border-radius: 12px; padding: 5px 15px; margin-top: 20px; color: #000;}
 .copyright p{ line-height: 48px;}
