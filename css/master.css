@@ -19,8 +19,9 @@ html {overflow-y: scroll;}
 .indent32{text-indent: 32px;}
 
 table.dtable {width: 100%;border-width: 1px;border-color: #666666;border-collapse: collapse;}
+table.dtable tr{ border-bottom: 1px dotted #666;}
 table.dtable th {border-width: 1px;	padding: 8px;border-style: solid;border-color: #666666;background-color: #c6c6c6;}
-table.dtable td {border-width: 1px;	padding: 8px;border-style: solid;border-color: #666666;background-color: #e4dabe;text-align: center;}
+table.dtable td {border-width: 1px;	padding: 5px;border-style: solid;border-color: #666666;background-color: #e4dabe;text-align: center;}
 
 body{min-width: 320px;/*max-width: 768px;*/margin:0 auto; background-color: #9eebff;font-size: 16px; font-family: "Microsoft YaHei",微软雅黑,"SimSun","Microsoft JhengHei",华文细黑,STHeiti,MingLiu,tahoma,verdana,arial,sans-serif;}
 #container{width: 100%;_width:768px;margin:0 auto;}

@@ -35,40 +35,15 @@
 			<div class="activity aLyTop">
 				<div class="aLyTopHead clearfix">
 					<em>乐友财富值TOP20:</em>
-					<a href="javascript:void(0);">刷新</a>
+					<a href="javascript:void(0);" id="lyBtn">刷新</a>
 				</div>
 				<div class="aLyTopContent">
-					<table class="dtable">
-						<tr>
-							<td>第1名:</td>
-							<td>(微乐号)</td>
-							<td>当前财富值</td>
-						</tr>
-						<tr>
-							<td>第2名:</td>
-							<td>(微乐号)</td>
-							<td>当前财富值</td>
-						</tr>
-						<tr>
-							<td>第3名:</td>
-							<td>(微乐号)</td>
-							<td>当前财富值</td>
-						</tr>
-						<tr>
-							<td>第4名:</td>
-							<td>(微乐号)</td>
-							<td>当前财富值</td>
-						</tr>
-						<tr>
-							<td>第5名:</td>
-							<td>(微乐号)</td>
-							<td>当前财富值</td>
-						</tr>
+					<table class="dtable" id="lyDataTable">
 					</table>					
 				</div>
 				<div class="aLySearch">
-					<p class="searchtitle">用户当前财富值查询:</p>
-					<p class="searchinput">请输入微乐号: <input type="text" id="lyId"> <a href="javascript:void(0);" id="lySearch">查询</a> </p>
+					<p class="searchtitle">用户当前财富值查询:</p><span id="lyRank"></span>
+					<p class="searchinput">请输入微乐号: <input type="number" id="lyId" min="10000"> <a href="javascript:void(0);" id="lySearch">查询</a> </p>
 					<p class="loadtips">※  数据加载繁忙，每1小时更新一次，请大家耐心等待！</p>
 				</div>
 			</div>
@@ -127,30 +102,10 @@
 				<h3>— 乐商排名版展示区 —</h3>
 				<div class="aLyTopHead clearfix">
 					<em>最受欢迎乐商TPO20:</em>
-					<a href="javascript:void(0);">刷新</a>
+					<a href="javascript:void(0);" id="lsBtn">刷新</a>
 				</div>
 				<div class="aLyTopContent">
-					<table class="dtable">
-						<tr>
-							<td>第1名:</td>
-							<td>(乐商名字)</td>
-						</tr>
-						<tr>
-							<td>第2名:</td>
-							<td>(乐商名字)</td>
-						</tr>
-						<tr>
-							<td>第3名:</td>
-							<td>(乐商名字)</td>
-						</tr>
-						<tr>
-							<td>第4名:</td>
-							<td>(乐商名字)</td>
-						</tr>
-						<tr>
-							<td>第5名:</td>
-							<td>(乐商名字)</td>
-						</tr>
+					<table class="dtable" id="lsDataTable">
 					</table>					
 				</div>
 				<p class="loadtips">※  数据加载繁忙，每1小时更新一次，请大家耐心等待！</p>
