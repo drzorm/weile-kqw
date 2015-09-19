@@ -32,7 +32,7 @@ body{min-width: 320px;/*max-width: 768px;*/margin:0 auto; background-color: #9ee
 .aLyTop,.aLsTop{ background-color: #7394c9; padding: 20px 40px;}
 
 .aLySearch p{ font-size: 16px; line-height: 32px; }
-.aLySearch p.searchtitle{ text-align: center; background-color: #fff; width: 170px; }
+.aLySearch p.searchtitle{ display: inline-block; padding: 0 10px; text-align: center; background-color: #fff;}
 .aLySearch p.searchinput{ line-height: 48px;}
 #lyId{ display: inline-block; width: 200px; height: 32px; line-height: 36px; border: none;}
 #lySearch{display:inline-block; width: 80px; height: 32px; margin-left:12px; line-height: 32px; text-align: center;font-size: 18px; font-weight: bold; background-color: #ccc;}
@@ -56,6 +56,5 @@ body{min-width: 320px;/*max-width: 768px;*/margin:0 auto; background-color: #9ee
 .cContent strong{ color: #22227c; font-weight: bold;}
 
 #footer{ position: relative; width: 100%; margin:0 auto; padding: 0; text-align: center;}
-.copyright{ margin-top: -150px;}
 .copyright a.top{ border: 3px solid #45458b; border-radius: 12px; padding: 5px 15px; margin-top: 20px; color: #000;}
 .copyright p{ line-height: 48px;}
