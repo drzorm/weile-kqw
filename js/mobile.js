@@ -25,7 +25,7 @@ $(function(){
 			if(o.resultCode==1){			
 				$lyRank.html(o.data.weileNumber+"财富值为"+o.data.riches);
 			}else{
-				$lyRank.html("<tr><td>数据加载失败...</td><tr/>");
+				$lyRank.html("数据加载失败...");
 			}
 		});
 	})
